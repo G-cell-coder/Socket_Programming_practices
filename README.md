@@ -9,3 +9,21 @@ STEPS:
 3) FIRST run the [<server binary filename> in a seperate window] (or) [run as Background process with bg ./<server binary filename> to check on same WINDOW for client repsonse] - For establishment of TCP port and SOCK address for IPC communication.
 4) SECOND run the [<client binary filename> in a seperate window ] for IPC communication to get used for Message exchange.
 
+
+
+=======================================================
+Practice and debugging:
+=======================
+
+1) echo_server_pract.c
+2) echo_client_pract.c
+
+
+These files are included to practice on debugging and locating the exact problem through gdb on attending "Bad file descriptor" problem.
+share me the steps to debug
+=======================================================
+Resolved above problem and Fixed:
+=================================
+1) accept and connect - parameters differentiation and understandings
+2) communication with software flitches and getting calmness algo on fixing - to bring as expected
+=======================================================

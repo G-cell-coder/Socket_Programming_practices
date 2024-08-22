@@ -1,0 +1,33 @@
+==================================================================
+SERVER SIDE WINDOW RESULT:
+==========================
+vm@mail:~/Socket_programs$ ./echo_server_pract 
+
+ Received request...
+Received n bytes of string from and resent to client:6 
+hello
+
+Received n bytes of string from and resent to client:7 
+thanks
+
+Received n bytes of string from and resent to client:10 
+marvelous
+�Y
+Received n bytes of string from and resent to client:42 
+help till progresed and always progressed
+�Y
+^C
+==================================================================
+CLIENT SIDE WINDOW RESULT:
+==========================
+vm@mail:~/Socket_programs$ ./echo_client_pract 
+hello
+String received from the server:hello
+thanks
+String received from the server:thanks
+marvelous
+String received from the server:marvelous
+�|help till progresed and always progressed
+String received from the server:help till progresed and always progressed
+^C
+=================================================================
