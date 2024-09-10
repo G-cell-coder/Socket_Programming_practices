@@ -1,7 +1,5 @@
 1) Basic client-server TCP connection
 2) Basic client-server UDP connection
 3) Multi-client IPC programming
-4) Concurrent IPC programming with TCP using Threads
-5) NON-concurrent IPC programming with TCP examples
-6) Concurrent IPC programming with UDP 
-7) Non-concurrent IPC prgramming with UDP examples`
+4) Concurrent IPC programming using Threads
+5) NON-concurrent IPC programming examples
