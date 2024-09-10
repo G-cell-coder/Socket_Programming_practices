@@ -27,9 +27,11 @@ printf("\n Received request...\n");
 while((n = recv(connfd, buff, 1000,0)) >0)
 {
 printf("Received n bytes of string from and resent to client:%d \n",n);
-//FILE *file = fopen("message_history.txt","w");
+FILE *file = fopen("message_history.txt","a");
 puts(buff);
 //fwrite(buff,1, n, file);
+fputs(buff,file);
+fclose(file);
 send(connfd,buff,n,0);
 }
 
