@@ -27,3 +27,8 @@ Resolved above problem and Fixed:
 1) accept and connect - parameters differentiation and understandings
 2) communication with software flitches and getting calmness algo on fixing - to bring as expected
 =======================================================
+
+===============================================================================
+Remaining programs: 
+==================
+Involves all IPC regular practical exercises 
